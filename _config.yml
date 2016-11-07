@@ -1,6 +1,6 @@
 # top level stuff you probably don't need to touch
-highlighter: pygments
-markdown: rdiscount
+highlighter: rouge
+markdown: kramdown
 rdiscount:
   extensions: [smart]
 permalink: /:title.html
@@ -11,8 +11,8 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: http://username.github.io/
-baseurl: /sustain/
+url: http://cxiao.net/
+baseurl: "/"
 title: Cindy Xiao
 author: Cindy Xiao
 description: Personal website
